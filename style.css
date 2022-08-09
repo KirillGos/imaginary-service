@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+     margin : 0;
+  }
+  
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    height: 100% ;
+    width: 100%;
+   
+    background-color: rgb(240, 250, 255);
+}
+:root {
+   color: --font(Norse-bold); 
+}
+
+#logo-side {
+    background-image: url(https://images.pexels.com/photos/4937197/pexels-photo-4937197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.row {
+    display: flex;  
+
+}
+
+.column {
+    float: left;
+    height: 100vh;
+}
+
+.left {
+    background-color: rgba(226, 226, 175, 0.63);
+    width: 60vw;
+}
+
+.right {
+    width: 40vw;
+}
+
+#header {
+    margin: 50px; 
+    margin-left: 100px;
+    width: 600px;
+    font-size: 23px;
+}
+
+form {
+    padding: 25px;
+    background-color: azure;
+}
+ul {
+    list-style: none;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
