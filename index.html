@@ -12,16 +12,17 @@
     <div class="row">
     <div id="logo-side" class="column right">
                 <div class="heading">
-                    Travel in Time
+                    <img src="./odin-lined.png" alt="">Odin
                 </div>
         </div>
         <div id="form" class="column left">
             <div id="header">
-            <p>This is not a real online service! have you ever dreamed about been in antik greece now it's 
+            <p>This is not a real online service! have you ever dreamed about been in antic greece now it's 
                 possible.Sign up <i>now</i> to get started.</p>
             </div>
             <form>
-                <h3>Let's do this!</h3>
+                <div class="form-style">
+                         <h3>Let's do this!</h3>
                 <ul>
                     <div class="right-inputs">
                        <li>
@@ -37,30 +38,38 @@
                     <li>
                          <p for="password">Password </p>
                         <input type="password" name="password" id="password" minlength="8" required > 
-                        <div class="warning">*  passwords doesn't match</div>
+                        <div class="warning">* passwords do not match</div>
                     <li>
                     </div>
                    
                     <div class="left-inputs">
-                    <li>
-                        <p>Last Name </p>
-                        <input type="text" name="last_name" id="last_name">
-                    </li>
+                        <li>
+                            <p>Last Name </p>
+                            <input type="text" name="last_name" id="last_name">
+                        </li>
+                        
+                        <li>
+                        <p for="phone_number">Phone Number</p>
+                        <input type="tel" name="phone_number" id="phone_number">
+                        </li>
+                        
+                        <li>
+                            <p for="password-confirm">Confirm password</p>
+                        <input type="password" name="password-confirm" id="password-confirm" minlength="8" required>
                     
-                    <li>
-                       <p for="phone_number">Phone Number</p>
-                       <input type="tel" name="phone_number" id="phone_number">
-                    </li>
-                    
-                    <li>
-                        <p for="password-confirm">Confirm password</p>
-                       <input type="password" name="password-confirm" id="password-confirm" minlength="8" required>
-                   
-                    </li>
-                </div>
+                        </li>
+                    </div>
             </ul>
-            </form>
+         </div> 
+          <div class="submit">
+                <button type="submit" class="btn">Create Account</button>
+                <p>Already have an account <a href="#">Log in</a></p>
+            </div>
+        </form>
+            </div>
+            
         </div>
+        
 </div>
 </body>
 </html>
